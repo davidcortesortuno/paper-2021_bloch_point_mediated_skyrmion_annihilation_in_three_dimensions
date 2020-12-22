@@ -47,11 +47,11 @@ Numpy arrays [4].
 If you find this material useful please cite us (you might need the LaTeX's
 `url` package)
 
-    @Misc{Birch2020,
+    @Misc{Birch2021,
       author       = {M. T. Birch and D. Cort\'es-Ortu\~no},
       title        = {{Data set for: Bloch point-mediated skyrmion annihilation in three dimensions}},
-      howpublished = {Zenodo \url{doi:10.5281/zenodo.4384569}. Github: \url{https://github.com/davidcortesortuno/paper-2020_xxxxx}},
-      year         = {2020},
+      howpublished = {Zenodo \url{doi:10.5281/zenodo.4384569}. Github: \url{https://github.com/davidcortesortuno/https://github.com/davidcortesortuno/paper-2021_bloch_point_mediated_skyrmion_annihilation_in_three_dimensions}},
+      year         = {2021},
       doi          = {10.5281/zenodo.4384569},
       url          = {https://doi.org/10.5281/zenodo.4384569},
     }
