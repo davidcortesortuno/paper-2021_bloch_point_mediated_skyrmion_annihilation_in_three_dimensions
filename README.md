@@ -2,14 +2,19 @@ Zenodo:                   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.43
 
 # Data Set
 
-This repository contains the Fidimag [1] scripts and notebooks to reproduce the
-simulations of [2]: *Bloch point-mediated skyrmion annihilation in three
-dimensions* by M. T. Birch, D. Cortés-Ortuño, N. D. Khanh, S.  Seki, A.
+This repository contains both the experimental data and the simulation scripts
+to reproduce the results of [2]: *Bloch point-mediated skyrmion annihilation in
+three dimensions* by M. T. Birch, D. Cortés-Ortuño, N. D. Khanh, S.  Seki, A.
 Štefančič, G. Balakrishnan, Y. Tokura and P. D. Hatton.
+
+# Experimental data
+
+Raw data from the figures of the paper, in the form of MPMS3 Data Files (`.dat`
+files), are supplied in the `Experimental_Data` directory.
 
 # Simulations
 
-Simulations were done using Fidimag in two steps:
+Simulations are based on the Fidimag [1] code and consist in two steps:
 
 ##  1. Find equilibrium states
 
