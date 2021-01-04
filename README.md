@@ -3,9 +3,11 @@ Zenodo:                   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.43
 # Data Set
 
 This repository contains both the experimental data and the simulation scripts
-to reproduce the results of [2]: *Bloch point-mediated skyrmion annihilation in
+to reproduce the results of [1]: *Bloch point-mediated skyrmion annihilation in
 three dimensions* by M. T. Birch, D. Cortés-Ortuño, N. D. Khanh, S.  Seki, A.
 Štefančič, G. Balakrishnan, Y. Tokura and P. D. Hatton.
+
+![](images/sk_transition.jpg)
 
 # Experimental data
 
@@ -14,7 +16,7 @@ files), are supplied in the `Experimental_Data` directory.
 
 # Simulations
 
-Simulations are based on the Fidimag [1] code and consist in two steps:
+Simulations are based on the Fidimag [2] code and consist in two steps:
 
 ##  1. Find equilibrium states
 
@@ -42,9 +44,9 @@ visualisations of the configurations are shown, can be found in the `notebooks`
 directory. Brief descriptions of the methods used in the Jupyter notebooks are
 provided. The main methodology is to create a simulation object from Fidimag,
 load `npy` files with the magnetic configurations and then analyze the data.
-Visualisation of isosurfaces are performed using SciKit image [2] and plots of
-the states are performed using Matplotlib [3]. Data analysis is also done via
-Numpy arrays [4].
+Visualisation of isosurfaces are performed using SciKit image [3] and plots of
+the states are performed using Matplotlib [4]. Data analysis is also done via
+Numpy arrays [5].
 
 
 # Cite
@@ -63,18 +65,22 @@ If you find this material useful please cite us (you might need the LaTeX's
 
 # References
 
-[1] Bisotti, M.-A., Cortés-Ortuño, D., Pepper, R., Wang, W., Beg, M., Kluyver,
+[1]  Birch, M. T., Cortés-Ortuño, D., Khanh, N. D., Seki, S., Štefančič, A.,
+Balakrishnan, G., Tokura, Y. and Hatton, P. D. *eprint* **arXiv:2012.14813**
+[https://arxiv.org/abs/2012.14813]
+
+[2] Bisotti, M.-A., Cortés-Ortuño, D., Pepper, R., Wang, W., Beg, M., Kluyver,
 T. and Fangohr, H., 2018. *Fidimag – A Finite Difference Atomistic and
 Micromagnetic Simulation Package.* Journal of Open Research Software, 6(1),
 p.22. DOI: http://doi.org/10.5334/jors.223
 
-[2] Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François
+[3] Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François
 Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the
 scikit-image contributors. scikit-image: Image processing in Python. PeerJ
 2:e453 (2014) https://doi.org/10.7717/peerj.453 
 
-[3] J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science
+[4] J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science
 & Engineering, vol. 9, no. 3, pp. 90-95, 2007.
 
-[4] Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming
+[5] Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming
 with NumPy. Nature 585, 357–362 (2020). DOI: 0.1038/s41586-020-2649-2.
