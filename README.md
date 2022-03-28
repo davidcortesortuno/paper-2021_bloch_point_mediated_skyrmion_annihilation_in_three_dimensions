@@ -3,9 +3,9 @@ Zenodo:                   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.43
 # Data Set
 
 This repository contains both the experimental data and the simulation scripts
-to reproduce the results of [1]: *Bloch point-mediated skyrmion annihilation in
-three dimensions* by M. T. Birch, D. Cortés-Ortuño, N. D. Khanh, S.  Seki, A.
-Štefančič, G. Balakrishnan, Y. Tokura and P. D. Hatton.
+to reproduce the results of [1]: *Topological defect-mediated skyrmion
+annihilation in three dimensions* by M. T. Birch, D. Cortés-Ortuño, N. D. Khanh,
+S.  Seki, A. Štefančič, G. Balakrishnan, Y. Tokura and P. D. Hatton.
 
 ![](images/sk_transition.jpg)
 
